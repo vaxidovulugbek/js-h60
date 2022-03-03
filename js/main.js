@@ -142,9 +142,17 @@
 // }
 // else if
 
-
-
-
+// fizz bazz
+let a = prompt("a:")
+if (a % 3 == 1 && a % 5 == 1) {
+  console.log("fizz bazz")
+}
+else if (a % 3 == 0) {
+  console.log("fizz")
+}
+else if (a % 5 == 0) {
+  console.log("bazz")
+}
 
 //  FORGA OID MASALALR
 
@@ -339,16 +347,16 @@
 
 
 // 36 masala togri lekin chunmadim
-let n = 5
-let c = 0
-for (let i = 1 ; i <= n ; i++) {
-  let k = 2
-  for (j = 1 ; j <= n ; j++){
-    k *= j
-  }
-  c += k
-}
-console.log(c)
+// let n = 5
+// let c = 0
+// for (let i = 1 ; i <= n ; i++) {
+//   let k = 2
+//   for (j = 1 ; j <= n ; j++){
+//     k *= j
+//   }
+//   c += k
+// }
+// console.log(c)
 
 
 
