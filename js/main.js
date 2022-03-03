@@ -144,14 +144,14 @@
 
 // fizz bazz
 let a = prompt("a:")
-if (a % 3 == 1 && a % 5 == 1) {
-  console.log("fizz bazz")
-}
-else if (a % 3 == 0) {
+if (a % 3 == 0) {
   console.log("fizz")
 }
 else if (a % 5 == 0) {
   console.log("bazz")
+}
+else if (a % 3 != 0 && a % 5 != 0) {
+  console.log("fizz-bazz")
 }
 
 //  FORGA OID MASALALR
